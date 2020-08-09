@@ -1,0 +1,292 @@
+@font-face{
+    font-family: Gilroy-Medium;
+    src: url(/Courses/fonts/Gilroy-Medium.woff);
+}
+
+@font-face{
+    font-family: Gilroy-Bold;
+    src: url(/Courses/fonts/Gilroy-Bold.woff);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-weight: 22px;
+    
+}
+
+.menu{
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.menu_top{
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    
+}
+
+.menu_item{
+    
+}
+
+.menu_link{
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+}
+
+.liniya{
+    border-bottom: 1px solid rgb(130, 130, 130);
+    position: relative;
+    margin-left: 40px;
+    margin-right: 250px;
+    margin-left: 290px;
+}
+
+.main_name{
+    color: #070707;
+    width: 124px;
+    height: 118px;
+    position: absolute;
+    margin: 40px 300px 30px 40px;
+    font-size: 47px;
+    font-family: Gilroy-Bold;
+    line-height: 59px;
+    margin-right: 250px;
+    margin-left: 290px;
+}
+.who_am__i{
+    margin: auto;
+    padding: 65px 350px 50px 300px;
+}
+
+.design_text{
+    width: auto;
+    margin-right: 250px;
+    margin-left: 250px;
+    white-space: pre;
+    color: #070707;
+    font-family: Gilroy-Medium;
+    padding-left: 339px;
+}
+
+.me_pic{
+    margin-right: 250px;
+    margin-left: 250px;
+    width: 943px;
+    height: 387px;
+    overflow:hidden;
+    padding-right: 105px;
+    padding-left: 40px;
+    margin-bottom: 105px;
+}
+
+.me_pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.about_me__info{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 768px;
+    background: #F6F6F6;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    
+}
+
+.info_about__me{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 17.69px;
+}
+
+.info_number__1{
+    white-space: pre-line;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    padding-bottom: 107px;
+}
+
+.my_skills{
+    margin-top: 91px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.were_work{
+    margin-top: 69px;
+    margin-bottom: 177px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills_pics{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 230px;
+}
+
+.pics_skills{
+    padding-left: 45px;
+    padding-right: 25px;
+    opacity: 0.7;
+}
+
+.me_pic:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.pics_skills:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.portfolio{
+    text-align: center;
+    background: #F6F6F6;
+    max-width: 100%;
+    height: 100%;
+}
+
+.portfolio_top{
+    color: #070707;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 47px;
+}
+
+.first_pic{
+    width: 936.24px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.reebok{
+    text-align: center;
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    margin-bottom: 100px;
+}
+
+.reebok_web{
+    width: 936.24px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.concept_reebok{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    padding-bottom: 97px;
+}
+
+.camera{
+    width: 936.24px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.lust_text{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    padding-bottom: 96px;
+}
+
+.my_contacts{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 20px;
+    padding-top: 114px;
+}
+
+.text_footer{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    white-space: pre-line;
+    margin-bottom: 30px;
+}
+
+.podval_site{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 86px;
+}
+
+.send_message{
+    font-family: Gilroy-Bold;
+    color: #FFFFFF;
+    border-radius: 50px 50px 50px 50px;
+    text-decoration: none;
+    user-select: none;
+    background: #070707;
+    padding: 13px 30px 12px 30px;
+    
+}
+
+.pics_footer__bottom{
+    margin-top: 100px;
+}
+
+.like_me__pls{
+    margin-top: 45px;
+    white-space: pre-line;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 125px;
+}
+
+
